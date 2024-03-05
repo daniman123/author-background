@@ -1,0 +1,20 @@
+[
+	{
+			"twitter_base_url": "https://twitter.com",
+			"search_user": {
+				"path": "/search",
+				"query": {
+					"q": "",
+                    "f":"user"
+				}
+			},
+			"compose_post": {
+				"path": "/compose/post",
+				"query": {
+					"in_reply_to": "",
+					"text": ""
+				}
+			}
+		}
+	
+]
