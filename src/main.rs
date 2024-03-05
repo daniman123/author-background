@@ -5,6 +5,7 @@ mod parse_html;
 mod prelude;
 mod prepare_tweet_data;
 mod twitter_query_builder;
+mod extract_info_from_tweet;
 mod utils;
 
 use crate::prepare_tweet_data::get_message::get_tweet_message;

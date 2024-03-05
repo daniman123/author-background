@@ -2,6 +2,10 @@ use scraper::error::SelectorErrorKind;
 
 #[derive(thiserror::Error, Debug)]
 pub enum Error {
+    #[error("url is invalid")]
+    InvalidUrl,
+    // #[error("domain name is not set")]
+    // EmptyHost(#[from] url::ParseError),
     #[error("domain name is not set")]
     EmptyDomainNameError,
     #[error("Tweet message is not set")]
